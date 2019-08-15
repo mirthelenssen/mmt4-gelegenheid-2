@@ -1,0 +1,309 @@
+@font-face {
+    font-family: montserrat;
+    src: url(../css/font/montserrat/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: Playfair Display;
+    src: url(../css/fonts/PlayfairDisplay-Bold.otf);
+}
+.clear {
+    clear: both;
+}
+nav {
+    height: 90px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+}
+
+nav ul {
+    width: 500px;
+    height: 40px;
+    float: right;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 30px;
+    line-height: 40px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1em;
+    color: #FFAFE3;
+}
+.headerfoto {
+    height: 600px;
+    width: 100%;
+    opacity: .3;
+    position: absolute;
+}
+#fixedheader {
+    height: 600px;
+    width: 100%;
+    background-image: linear-gradient(#0076FF , #FFAFE3);
+}
+#slider { 
+    height: 600px;
+    width: 100%;
+    opacity: .3; 
+}
+#slider> div { 
+    height: 600px;
+    width: 100%;
+    opacity: .3;
+    position: absolute;
+}
+#contactfoto {
+    position: absolute;
+}
+#intro {
+    width: 900px;
+    height: 250px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 200px;
+    z-index: 2;
+}
+h1 {
+    color: white;
+    font-family:  'Playfair Display';
+    font-size: 3em;   
+    margin-left: 200px; 
+    font-weight: bold;
+    margin-top: 20px;
+}
+h2 {
+    color: white;
+    font-family:  'Playfair Display';
+    font-size: 3em;   
+    font-weight: bold;
+    margin-top: 90px;
+    margin-left: 5%
+}
+.headertekst {
+    color: white;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: 200px;
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
+#videodiv {
+    background-color: #0076FF;
+    width: 904px;
+    height: 508px;
+    margin: 0 auto;
+    margin-top: -50px;
+}
+video {
+    margin: 0 auto;
+    opacity: 0.3;
+}
+.afspeelknoppen{
+    position: absolute;
+    transform: translate(-50%);
+    top: 105%;
+    left: 50%;
+    height: 90px;
+    width: 250px;
+}
+.playknop{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 40px;
+}
+.playknop img {
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+.terugspoelknop{
+    width: 40px;
+    height: 40px;
+    margin-right: 60px;
+    margin-bottom: 25px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 40px;
+}
+.terugspoelknop img {
+    width: 18px;
+    height: 18px;
+    margin-top: 11px;
+    margin-left: 13px;
+}
+#get {
+    font-family: 'Montserrat';
+    color: white;
+    font-weight: bold;
+    font-size: .8em;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#featured {
+    font-family: 'Montserrat';
+    color: #FFAFE3;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-left: 45%;
+}
+#portfolio {
+    height: 800px;
+    width: 1180px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.foto {
+    height: 352px;
+    width: 352px;
+    margin: 0 auto;
+    float: left;
+    padding: 20px;
+}
+.hoverfoto {
+    height: 352px;
+    width: 352px;
+    margin: 0 auto;
+    float: left;
+    background-color: #0076FF;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 20px;
+    opacity: .8;
+    
+}
+.digitalthinkers {
+    color: white;
+    font-family:  'Playfair Display';
+    font-size: 2em;   
+    margin-left: 20px; 
+    font-weight: bold;
+    margin-top: 20px;
+}
+#buttons {
+    width: 300px;
+    height: 90px;
+    margin-top: 100px;
+}
+.hashtag {
+    background-color: #FFAFE3;
+    font-family: 'Montserrat';
+    color: white;
+    border-radius: 6px;
+    width: 125px;
+    height: 40px;
+    font-size: 1em;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.more {
+    height: 50px;
+    width: 250px;
+    background-color: #0076FF;
+    color: #FFAFE3;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    margin-left: 41%;
+    font-size: 1em;
+    margin-top: 20px;
+}
+#footerbalk {
+    background-color: #0076FF;
+    height: 450px;
+    width: 100%;
+    margin-top: 80px;
+}
+#calltoaction {
+    position: absolute;
+    color: white;
+    font-family:  'Playfair Display';
+    font-size: 3em;
+    margin-left: 32%;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.contact {
+    color: #FFAFE3;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 300px;
+    margin-left: 46%;
+    position: absolute;
+}
+#toggle {
+    width: 500px;
+    height: 500px;
+    display: none;
+    margin-left: -20px;
+  }
+  #form{
+    border-radius:2px;
+    padding:20px 30px;
+    box-shadow:0 0 15px;
+    font-size: 0.8em;
+    font-weight:bold;
+    width:350px;
+    margin:20px 250px 0 35px;
+    float:left;
+    }
+    h3{
+    text-align:center;
+    font-size: 1em;
+    }
+    input{
+    width:100%;
+    height:35px;
+    margin-top:5px;
+    border:1px solid #999;
+    border-radius:3px;
+    padding:5px;
+    }
+    input[type=button]{
+    background-color:#FFAFE3;
+    border:1px solid white;
+    font-family: 'Montserrat';
+    font-Weight:bold;
+    font-size: 1em;
+    color:white;
+    }
+    textarea{
+    width:100%;
+    height:80px;
+    margin-top:5px;
+    border-radius:3px;
+    padding:5px;
+    resize:none;
+    }
+    #note{
+    color:black;
+    }
+    #returnmessage{
+    font-size:14px;
+    color:green;
+    text-align:center;
+    }
+#p5foto {
+    margin-top: 20px;
+    margin-left: 25%
+}
+    
+
+
+
+
+    
