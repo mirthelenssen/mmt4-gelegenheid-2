@@ -1,12 +1,4 @@
-@font-face {
-    font-family: montserrat;
-    src: url(../css/font/montserrat/Montserrat-Bold.ttf);
-}
 
-@font-face {
-    font-family: Playfair Display;
-    src: url(../css/fonts/PlayfairDisplay-Bold.otf);
-}
 .clear {
     clear: both;
 }
@@ -183,7 +175,6 @@ video {
     margin-left: 20px;
     margin-top: 20px;
     opacity: .8;
-    
 }
 .digitalthinkers {
     color: white;

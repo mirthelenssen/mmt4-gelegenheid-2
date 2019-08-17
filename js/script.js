@@ -18,7 +18,8 @@ $("#afspelen").click(function () {
     if (geklikt == false) {
         player.play();
         geklikt = true;
-        $("#afspelen").css({ "background-image": "url(img/play.png)" });
+        $("#afspelen").css({
+         } );
 
     } else {
         player.pause();
@@ -40,7 +41,7 @@ $("#terugspoelen").click(function () {
 
 $( document ).click(function() {
     $( "#toggle" ).toggle( "slide" );
-  });
+  }); 
 
   $(document).ready(function() {
     $("#submit").click(function() {
