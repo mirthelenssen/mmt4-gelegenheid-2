@@ -2,19 +2,19 @@
 <html lang="en">
 
 <head>
-        <script src='https://vjs.zencdn.net/7.5.5/video.js' rel='stylesheet'></script>
-        <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
+        
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Herkansing</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
-    <script src="contact_form.js"></script>
+    <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
+   
+    
 </head>
 
 <body>
@@ -55,16 +55,19 @@
             <div id="videodiv">
                     <p id="get"> Get to know me</p>
 
-                    <video width="904" height="508" controls>
+                    <video id="video1" class="video.js" width="904" height="508">
+
                             <source src="video/Awwwards Brand Refresh - Celebrating Simplicity.mp4"type=video/mp4>
                                 </video>
    
                                 <div class="afspeelknoppen">
-                                        <div id="terugspoelen" class="terugspoelknop player-btn">
+                                        <div id="terugspoelen" class="terugspoelknop">
                                             <img src="img/rewind.png" alt="rewind">
                                         </div>
-                                        <div id="afspelen" class="playknop player-btn">
+                                        <div id="afspelen" class="playknop">
                                             <img src="img/play.png" alt="play">
+                                        </div>
+                                       
                                         </div>
                                     </div> 
                             <div class="clear"></div>
@@ -88,28 +91,32 @@
                             </button>
                         </div>
             </div>
+            
                 <div class="foto">
                     
                     <img src="img/99f90c62250151.5a8c4af37fed6.png" alt="1"></div>
-                 
+                    
                         
                 <div class="foto">
-                    <img src="img/01b8e164052935.5ac54848589e1.png" alt="2"></div>
+                        
+                    <img src="img/01b8e164052935.5ac54848589e1.png" alt="2">
+                    
+                </div>
                  
                 
                 <div class="foto"><img src="img/a8866c65593285.5af9f0d2822be.png" alt="3"></div>
                  
-                    
+                     
                <div class="foto">
                     <a href="p5.html">
                 <img src="img/verplicht item 2.png" alt="4"> </a></div>
-                        
+                
                 <div class="foto"><img src="img/verplicht item 1.png" alt="5"> </div>
                  
                         
                 <div class="foto"><img src="img/d97bfd65388399.5af29f33e6beb.png" alt="6"></div>
                  
-                    </div>
+                    
                     <div class="clear"></div>
 
                     <button class="more"> MORE PORTFOLIO</button>
@@ -118,7 +125,7 @@
 <div id="footerbalk">
 <p id="calltoaction"> What can I do for you? <br>
         Let’s get in touch</p>
-        <p class="contact" onclick="myFunction()"> CONTACT</p>
+        <p class="contact"> CONTACT</p>
         <div id="toggle">
                 <form id="form">
                         <h3>Contact Form</h3>
@@ -137,6 +144,12 @@
 </div>
 
     </footer>
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src='https://vjs.zencdn.net/7.5.5/video.js' rel='stylesheet'></script>
+    <script src="js/script.js"></script>
+    
+    
+    
 </body>
 
 </html>

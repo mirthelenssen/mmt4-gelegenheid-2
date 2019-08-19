@@ -1,4 +1,5 @@
-
+var geklikt = false;
+var player = videojs('video1');
 
 $("#slider > div:gt()").hide();
 
@@ -18,8 +19,9 @@ $("#afspelen").click(function () {
     if (geklikt == false) {
         player.play();
         geklikt = true;
-        $("#afspelen").css({
-         } );
+        $("#afspelen").css({ 
+
+        });
 
     } else {
         player.pause();
@@ -31,15 +33,18 @@ $("#afspelen").click(function () {
     console.log(geklikt);
 });
 
+
+
 $("#terugspoelen").click(function () {
-    var time = currentTime();
-    if(geklikt == false){
-    player.currentTime(player.currentTime(time - 10));
+    var time = player.currentTime();
+       player.currentTime(time - 10);
+       {
 }
+console.log(geklikt);
 });
 
 
-$( document ).click(function() {
+$( ".contact").click(function() {
     $( "#toggle" ).toggle( "slide" );
   }); 
 
@@ -69,5 +74,7 @@ $( document ).click(function() {
     }
     });
     });
+    
+
     
  

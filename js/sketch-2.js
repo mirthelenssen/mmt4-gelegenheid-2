@@ -32,6 +32,9 @@ function setup() {
   colors[17] = color("#2FFF48"); 
   colors[18] = color("#A6FF2A");
   
+
+
+
   for (var i=0; i<maxDriehoeken; i++) {
     var breedte = random(15,70);
     driehoeken.push(new Driehoek(createVector(random(50,width-50), random(50,height-50)), breedte, breedte, int(random(0,4)), random(-2,2)));
@@ -46,6 +49,7 @@ function draw() {
     d.update();
     d.teken();
   }
+ 
 }
 
 function Driehoek(tempMidden, tempBreedte, tempHoogte, tempStartkleur, tempDraaing) {
@@ -104,4 +108,12 @@ function updateMiddle() {
 function toggleStroke(){
   driehoekFill = !driehoekFill;
 } 
+
+
+
+
+
+
+
+
 		
